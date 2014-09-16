@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>iTunes Search</title>
+</head>
+<body>
+
+<form action="">
+    <input type="text" id="search-term">
+    <input type="submit" value="Search">
+</form>
+
+<div id="results"></div>
+
+<script type="text/handlebars" id="song-template">
+    <div class="song">
+        <h3>{{artistName}}</h3>
+        <img src="{{artworkUrl30}}" alt=""/>
+        <p>{{trackName}}</p>
+    </div>
+</script>
+
+<script src="jquery-2.1.1.js"></script>
+<script src="handlebars-v2.0.0.js"></script>
+<script src="itunes.js"></script>
+
+</body>
+</html>

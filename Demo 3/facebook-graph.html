@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Facebook Graph API</title>
+</head>
+<body>
+
+
+<a href="#" onclick="fetchFbData('pepsi')">Pepsi</a>
+<a href="#" onclick="fetchFbData('cocacola')">Coke</a>
+
+<div id="results"></div>
+
+<script type="template" id="page-template">
+    <img src="{{cover.source}}" alt=""/>
+    <h1>{{name}}</h1>
+    <p>Likes: {{likes}}</p>
+
+    {{#if description}}
+        <p>{{description}}</p>
+    {{else}}
+        <p>No description available.</p>
+    {{/if}}
+</script>
+
+<script src="handlebars-v2.0.0.js"></script>
+<script src="facebook-graph.js"></script>
+
+</body>
+</html>

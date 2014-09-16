@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+<script>
+
+    // JSON notation, wrap everything in double quotes
+    var data = [
+        {"name": "David", "age": 28},
+        {"name": "John", "age": 23}
+    ];
+
+
+    var cat = {
+        name: 'Fiona',
+        meow: function() {
+            console.log('hello my name is ' + this.name);
+        }
+    };
+
+    cat.meow();
+
+    cat.age = 28;
+    console.log(cat.name);
+
+    cat['age'] = 18;
+    console.log(cat['age']);
+
+    var cache = {};
+
+    var searchTerm = 'shoe';
+</script>
+
+
+
+</body>
+</html>
