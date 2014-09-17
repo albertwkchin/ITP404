@@ -38,6 +38,7 @@
             <state line="13" column="13" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
+                <marker date="1410911379261" expanded="true" signature="58:401" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -46,7 +47,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.078341015" vertical-offset="0" max-vertical-offset="651">
+            <state line="19" column="4" selection-start="288" selection-end="288" vertical-scroll-proportion="0.49615976" vertical-offset="0" max-vertical-offset="651">
               <folding />
             </state>
           </provider>
@@ -131,6 +132,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Default" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -203,6 +205,7 @@
         <state line="13" column="13" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
           <folding>
             <element signature="e#0#40#0" expanded="false" />
+            <marker date="1410911379261" expanded="true" signature="58:401" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -216,7 +219,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.078341015" vertical-offset="0" max-vertical-offset="651">
+        <state line="19" column="4" selection-start="288" selection-end="288" vertical-scroll-proportion="0.49615976" vertical-offset="0" max-vertical-offset="651">
           <folding />
         </state>
       </provider>
