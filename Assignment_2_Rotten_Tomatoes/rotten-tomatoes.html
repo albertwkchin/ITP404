@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Rotten Tomatoes API</title>
+</head>
+<body>
+
+<form action="">
+    <input type="text" id="search-term" placeholder="movies [name/keywords]">
+    <input type="submit" value="Search">
+</form>
+
+<div id="results"></div>
+
+<script type="text/handlebars" id="movie-template">
+    <div class="movie">
+        <h1>{{title}}</h1>
+        <img src="{{posters.original}}" alt=""/>
+        {{#if synopsis}}
+            <p>{{synopsis}}</p>
+        {{else}}
+            <p>No synopsis available.</p>
+        {{/if}}
+        <p>The crowd thought: {{ratings.audience_rating}} </p>
+        <p>Audience score: {{ratings.audience_score}}</p>
+        <p>The critics thought: {{ratings.critics_rating}}</p>
+        <p>Critics score: {{ratings.critics_score}}</p>
+        <ul>
+            <p2> STARRING: </p2>
+            {{#each abridged_cast}}
+                <li>{{name}} as: {{characters}}</li>
+            {{/each}}
+        </ul>
+   </div>
+</script>
+
+<script src="jquery-2.1.1.js"></script>
+<script src="handlebars-v2.0.0.js"></script>
+<script src="rotten-tomatoes.js"></script>
+
+</body>
+</html>
