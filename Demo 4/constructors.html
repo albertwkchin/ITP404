@@ -1,0 +1,86 @@
+<script>
+
+    var david = {
+        name: 'David',
+        age: 28,
+        hello: function() {
+            console.log('Hi my name is ' + this.name);
+        }
+    };
+
+    var sam = {
+        name: 'Sam',
+        age: 35,
+        hello: function() {
+            console.log('Hi my name is ' + this.name);
+        }
+    };
+
+
+    // constructor function, constructor, class, reference type, data type
+    var Person = function(name, age) {
+        this.name = name; //own property
+        this.age = age; //own property
+
+       this.hello = function() {          // own method, takes precedence over prototype methods
+          console.log('Hi my name is ' + this.name);
+       };
+    };
+
+    // prototype method
+    Person.prototype.hello = function() {
+        console.log('Hi my name is ' + this.name);
+    };
+
+    Person.prototype.getName = function() {
+        return this.name.toLowerCase();
+    };
+
+var david = new Person('David', 28 );
+var sam = new Person('Sam', 35 );
+
+console.log (david, sam);
+
+/*
+    var alex = Person('Alex', 55);
+// check window.age, window.name, age, name       on console
+// "this" automatically corresponds to current environment if constructor is used without specifying new
+    // in this case, current environment is the window, so we've just created a global name and age variable
+    */
+
+</script>
+
+<script>
+
+    /*
+    var david = new String('david'); // constructor
+    var david = "david"; // literal syntax
+
+    var num = new Number(34); //constructor
+    var num = 34; //literal syntax
+
+    //var hello = new Function("")
+    //hello.prototype
+
+    var animal = {}; // literal syntax
+    var animal = new Object(); // Constructor
+
+
+    var list = new Array(); // constructor
+    var list = []; //literal syntax
+    */
+
+    Array.prototype.findAll
+
+
+    String.prototype.toURL = function() {
+        return this.replace(/\s/g, '-');
+    };
+
+    console.log("welcome to my blog".toURL());
+
+
+
+
+
+</script>
