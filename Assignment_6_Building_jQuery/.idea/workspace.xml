@@ -32,19 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classpage.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="classpage.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Default/classpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="776" selection-end="776" vertical-scroll-proportion="0.303233" vertical-offset="0" max-vertical-offset="897">
+            <state line="5" column="6" selection-start="75" selection-end="75" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="408">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpecRunner.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SpecRunner.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SpecRunner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="39" selection-start="545" selection-end="545" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="1088">
+            <state line="8" column="0" selection-start="264" selection-end="264" vertical-scroll-proportion="0.1516165" vertical-offset="0" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
@@ -260,16 +260,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpecRunner.html">
+    <entry file="file://$PROJECT_DIR$/../Default/classpage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="39" selection-start="545" selection-end="545" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="1088">
+        <state line="5" column="6" selection-start="75" selection-end="75" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="408">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Default/classpage.html">
+    <entry file="file://$PROJECT_DIR$/SpecRunner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="776" selection-end="776" vertical-scroll-proportion="0.303233" vertical-offset="0" max-vertical-offset="897">
+        <state line="8" column="0" selection-start="264" selection-end="264" vertical-scroll-proportion="0.1516165" vertical-offset="0" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>
