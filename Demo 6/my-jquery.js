@@ -7,6 +7,22 @@ var jQuery = function(selector) {
     }
 };
 
+jQuery.prototype.html = function(insideText) {
+    if (arguments.length != 0) {
+        for (var i = 0; i < this.elements.length; i++) {
+            this.elements[i] = insideText;
+        }
+        return this;
+    }
+    // else no arguments, getting the html
+    else {
+        var htmlString = this.elements[0].toString();
+        return htmlString;
+    }
+};
+
+
+
 jQuery.prototype.css = function() {
 
     //keyword 'arguments' in every function
