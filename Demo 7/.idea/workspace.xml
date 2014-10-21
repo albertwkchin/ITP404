@@ -26,7 +26,29 @@
       <file leaf-file-name="instagram-example.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/instagram-example.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="21" selection-start="28" selection-end="28" vertical-scroll-proportion="0.037904125" vertical-offset="0" max-vertical-offset="897">
+            <state line="19" column="6" selection-start="620" selection-end="620" vertical-scroll-proportion="0.51597446" vertical-offset="0" max-vertical-offset="1173">
+              <folding>
+                <element signature="e#7#312#0" expanded="true" />
+                <element signature="e#1016#1466#0" expanded="true" />
+                <marker date="1412735093585" expanded="true" signature="950:975" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="twitter-example.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitter-example.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="20" selection-start="345" selection-end="345" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="340">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="soundcloud-example.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/soundcloud-example.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -42,6 +64,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/twitter-example.php" />
+        <option value="$PROJECT_DIR$/soundcloud-example.php" />
         <option value="$PROJECT_DIR$/instagram-example.php" />
       </list>
     </option>
@@ -50,8 +74,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -79,6 +103,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -99,12 +124,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Demo 8" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -132,15 +157,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -174,7 +199,25 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/instagram-example.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="6" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="459">
+        <state line="16" column="2" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1173">
+          <folding>
+            <element signature="e#7#312#0" expanded="true" />
+            <element signature="e#1016#1466#0" expanded="true" />
+            <marker date="1412735093585" expanded="true" signature="950:975" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter-example.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soundcloud-example.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="272">
           <folding />
         </state>
       </provider>
@@ -182,14 +225,36 @@
     <entry file="file://$PROJECT_DIR$/instagram-example.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="6" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="459">
+          <folding>
+            <element signature="e#7#312#0" expanded="true" />
+            <element signature="e#1016#1466#0" expanded="true" />
+            <marker date="1412735093585" expanded="true" signature="950:975" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter-example.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="345" selection-end="345" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soundcloud-example.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="272">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/instagram-example.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="21" selection-start="28" selection-end="28" vertical-scroll-proportion="0.037904125" vertical-offset="0" max-vertical-offset="897">
-          <folding />
+        <state line="19" column="6" selection-start="620" selection-end="620" vertical-scroll-proportion="0.51597446" vertical-offset="0" max-vertical-offset="1173">
+          <folding>
+            <element signature="e#7#312#0" expanded="true" />
+            <element signature="e#1016#1466#0" expanded="true" />
+            <marker date="1412735093585" expanded="true" signature="950:975" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

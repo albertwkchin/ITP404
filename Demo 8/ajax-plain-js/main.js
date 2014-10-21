@@ -5,7 +5,7 @@ var ajax = function () {
   
   // Set the type of request, the URL
   // 3rd param: true means the request will be asynchronous, false is synchronous
-  xhr.open("GET", url, true); 
+  xhr.open("GET", url, true); // modify the XHR (doesn't actually make the request, just sets params)
 
   /*
   	readyState
