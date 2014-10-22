@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Yummly AJAX with JSON</title>
+</head>
+<body>
+
+<a href="https://github.com/albertwkchin/ITP404/tree/master/Assignment_8_AJAX_with_PHP_and_JSON">VIEW CODE ON GITHUB!</a>
+
+
+<form action="">
+    <input type="text" id="search-term" placeholder="ingredients [name/keywords]">
+    <input type="submit" value="Search">
+</form>
+
+
+<div id="results"></div>
+
+<script type="text/handlebars" id="recipe-template">
+    <div class="recipe">
+        <h1>{{recipeName}}</h1>
+        {{#each imageUrlsBySize}}
+            <img src="{{this}}" alt=""/>
+        {{/each}}
+        <p>Time in seconds to cook: {{totalTimeInSeconds}}</p>
+        <p>Rating (out of 5): {{rating}}</p>
+
+        <h2>Ingredients:</h2>
+        <ul>
+        {{#each ingredients}}
+           <li>{{this}}</li>
+        {{/each}}
+        </ul>
+   </div>
+</script>
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="handlebars-v2.0.0.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
