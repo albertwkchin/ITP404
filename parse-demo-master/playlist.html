@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<title>Playlist Demo</title>
+	<style>
+		.artist, .song-title {
+			text-transform: capitalize;
+		}
+	</style>
+</head>
+<body>
+
+<h3>Songs</h3>
+<ul id="songs"></ul>
+
+<script type="text/handlebars" data-template-name="song">
+	{{#each songs}}
+	<li>
+		<span class="song-title">{{title}}</span> by 
+		<span class="artist">{{artist}}</span>: 
+		({{playCount}} plays)
+	</li>
+	{{/each}}
+</script>
+
+<script src="//www.parsecdn.com/js/parse-1.3.0.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="handlebars-v2.0.0.js"></script>
+<script src="playlist.js"></script>
+
+</body>
+</html>
