@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Backbone demo</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div id="container"></div>
+
+<script type="template/handlebars" id="book-template">
+	<h2>{{title}}</h2>
+	<div>
+		<img src="{{image}}" style="width: 100px;">
+	</div>
+	<div>
+        <a href="#" class="like">Like</a>
+		<span>({{likes}})</span>
+	</div>
+</script>
+
+<script src="js/lib/jquery-2.1.1.js"></script>
+<script src="js/lib/underscore.js"></script>
+<script src="js/lib/backbone.js"></script>
+<script src="js/lib/handlebars-v2.0.0.js"></script>
+<script src="js/reviewsData.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

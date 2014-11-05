@@ -1,0 +1,15 @@
+body {
+	font-family: arial;
+}
+
+.book {
+	background-color: #efefef;
+	padding: 15px;
+	display: inline-block;
+	text-align: center;
+	margin: 15px;
+}
+
+.book a.like {
+	text-decoration: none;
+}
