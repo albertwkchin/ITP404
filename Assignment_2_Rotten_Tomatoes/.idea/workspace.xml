@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="rotten-tomatoes.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="rotten-tomatoes.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rotten-tomatoes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="21" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="816">
+            <state line="15" column="0" selection-start="317" selection-end="1031" vertical-scroll-proportion="0.28428093" vertical-offset="0" max-vertical-offset="897">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="rotten-tomatoes.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rotten-tomatoes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="867">
+            <state line="15" column="37" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
@@ -50,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classpage.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="classpage.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Default/classpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="137" selection-start="905" selection-end="905" vertical-scroll-proportion="0.24637681" vertical-offset="0" max-vertical-offset="897">
+            <state line="13" column="137" selection-start="905" selection-end="905" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -69,16 +69,16 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/rotten-tomatoes.js" />
-        <option value="$PROJECT_DIR$/rotten-tomatoes.html" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/../Default/classpage.html" />
+        <option value="$PROJECT_DIR$/rotten-tomatoes.js" />
+        <option value="$PROJECT_DIR$/rotten-tomatoes.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -109,6 +109,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -129,7 +130,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,7 +139,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Assignment_5_Position_Locator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Assignment_10_Rotten_Tomatoes_With_Backbone" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
@@ -168,15 +168,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -184,11 +184,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -208,6 +208,34 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/rotten-tomatoes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="21" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotten-tomatoes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="17" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Default/classpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="137" selection-start="905" selection-end="905" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rotten-tomatoes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="21" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
@@ -264,20 +292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotten-tomatoes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="816">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rotten-tomatoes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Assignment_8_AJAX_with_PHP_and_JSON/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="87" selection-end="208" vertical-scroll-proportion="0.13266444" vertical-offset="0" max-vertical-offset="897" />
@@ -285,7 +299,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Default/classpage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="137" selection-start="905" selection-end="905" vertical-scroll-proportion="0.24637681" vertical-offset="0" max-vertical-offset="897">
+        <state line="13" column="137" selection-start="905" selection-end="905" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotten-tomatoes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="37" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotten-tomatoes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="317" selection-end="1031" vertical-scroll-proportion="0.28428093" vertical-offset="0" max-vertical-offset="897">
           <folding />
         </state>
       </provider>

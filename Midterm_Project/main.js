@@ -1,66 +1,123 @@
-var latlngInitial = new google.maps.LatLng(50, 50);
+///////////////// RUN THIS CODE //////////////
 
+var latlngInitial = new google.maps.LatLng(36.05178307933835, 42.49737373046878);
 var mapElement = document.getElementById('map-canvas');
-
 var map = new google.maps.Map(mapElement, {
     center: latlngInitial,
-    zoom: 5
+    zoom: 8
 });
+var defaultArtist = 'Limp Bizkit';
+requestData(defaultArtist);
+
+
+//////////////// DATA REQUEST & MAP STUFF ////////////////
+
+function processJSONP(data) {
+    console.log("JSONP request returned, logging data.");
+    console.log(data);
+    populateMap(data);
+    concertList.process(data);
+}
+
+function populateMap(data) {
+    var newCenter = new google.maps.LatLng(data.events.event[0].latitude, data.events.event[0].longitude);
+    map.setCenter(newCenter);
+
+    for (var i = 0; i < data.events.event.length; i++) {
+        var latlng = new google.maps.LatLng(data.events.event[i].latitude, data.events.event[i].longitude);
+        var dataString = data.events.event[i].title + '  :::  ' + data.events.event[i].start_time;
+        plotPoint(latlng, dataString);
+    }
+}
+
+
+function requestData(artistName) {
+    var searchTerm = encodeURIComponent(artistName);
+
+    var script = document.createElement('script');
+    script.src = 'http://api.eventful.com/json/events/search?c=music&app_key=QFgjMgQjjjhwFqT2&page_number=1&date=Future&keywords=' + searchTerm + '&callback=processJSONP';
+    document.getElementsByTagName('head')[0].appendChild(script);
+};
 
 
 
-function plotPoint(latlng) {
+function plotPoint(latlng, dataString) {
     //new marker
-    //new info window with text = formatted_address
-    //set click event on marker to open info window
-    //set center of map to latlng
-
-    var markerIcon = {
-        url: 'http://allthingsclipart.com/04/sea.otter.04.jpg',
-        size: new google.maps.Size(50, 50),
-        scaledSize: new google.maps.Size(50,50)
-    };
-
 
     var marker = new google.maps.Marker({
         map: map,
         position: latlng,
-        animation: google.maps.Animation.BOUNCE,
-        icon: markerIcon
+
     });
 
-    map.setCenter(latlng);
-    createInfoWindow(latlng, marker);
+    createInfoWindow(latlng, marker, dataString);
 }
 
-function createInfoWindow(latlng, marker) {
-    // first geocode the latlng
-    var geocoder = new google.maps.Geocoder();
-    geocoder.geocode({latLng: latlng}, function(results) {
-        console.log(results);
 
-        if (results.length > 0) {
-            // there's some address nearby, now get the address and create the infowindow
-            var address = results[0].formatted_address;
-            var infowindow = new google.maps.InfoWindow({
-                content: address,
-                position: latlng
-            });
+function createInfoWindow(latlng, marker, dataString) {
 
-            google.maps.event.addListener(marker, 'click', function() {
-                infowindow.open(map);
-            });
+    var infowindow = new google.maps.InfoWindow({
+       content: dataString,
+       position: latlng
+    });
 
-        } else {
-            toastr.error('No results found');
-        }
-    } )
+    google.maps.event.addListener(marker, 'click', function() {
+        infowindow.open(map);
+    });
+
+    marker.setMap(map);
 }
 
-window.navigator.geolocation.getCurrentPosition(function(position) {
-    console.log(position);
-    var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-    plotPoint(latlng);
-}, function(err) {
+/////////////////////////////////////////////////////////////////////////////
 
+///////// MODELING AND DISPLAY STUFF ///////////
+
+var concertList = {
+
+    process: function(data) {
+        var concertCollection = new ConcertCollection(data.events.event);
+        var concertView = new ConcertView({ collection: concertCollection });
+        $('#results').html(concertView.render().el);
+    }
+};
+
+var Concert = Backbone.Model.extend({
+
+    defaults: {
+    },
+
+    initialize: function(options) {
+    }
 });
+
+var ConcertCollection = Backbone.Collection.extend({
+    model: Concert
+});
+
+var ConcertItemView = Backbone.View.extend({
+    template: Handlebars.compile($('#concert-template').html()),
+
+    render: function(){
+        var html = this.template(this.model.toJSON());
+        this.$el.html(html);
+        return this;
+    }
+});
+
+var ConcertView = Backbone.View.extend({
+    render: function(){
+        this.collection.each( function(concert) {
+            var concertItemView = new ConcertItemView({ model: concert });
+            this.$el.append(concertItemView.render().el); // adding all the concertItemView objects.
+        }, this);
+        return this;
+    }
+});
+
+//////////////////////////////////////////////////////////
+
+
+
+
+
+

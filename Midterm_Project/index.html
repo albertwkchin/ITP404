@@ -1,19 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="toastr.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/toastr.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
 </head>
 <body>
 <div id="map-canvas"></div>
-<div class="search-container">
-    <form>
-        <input type="text" id="search" class="huge">
-    </form>
-</div>
 
-<script src="jquery-1.11.0.js"></script>
-<script src="toastr.js"></script>
+<div id="results"></div>
+
+<script type="text/handlebars" id="concert-template">
+    <div class="event">
+        <h1><a href = "{{url}}">{{title}}</a></h1>
+        {{#if image.medium.url}}
+            <img src="{{image.medium.url}}">
+        {{else}}
+            <img src="img/default.png">
+        {{/if}}
+
+        {{#if description}}
+            <p>{{description}}</p>
+        {{else}}
+            <p>No description available.</p>
+        {{/if}}
+
+        {{#if venue_address}}
+            <p>Concert Venue: {{venue_address}}</p>
+        {{else}}
+            <p>Concert Venue: No available address.</p>
+        {{/if}}
+
+        <p>Location: {{city_name}}, {{country_name}}
+   </div>
+</script>
+
+
+<script src="lib/jquery-1.11.0.js"></script>
+<script src="lib/underscore.js"></script>
+<script src="lib/backbone.js"></script>
+<script src="lib/toastr.js"></script>
+<script src="lib/handlebars-v2.0.0.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeqLt0g1i5XrVaOcvHB7d9HEgu7pUq70Q"></script>
 <script src="main.js"></script>
 </body>

@@ -1,0 +1,48 @@
+html, body, #map-canvas { 
+	height: 100%; 
+	margin: 0; 
+	padding: 0;
+}
+
+#map-canvas {
+	height: 100%;
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+#results {
+    float: right;
+    width: 30%;
+    margin-right: 0px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+div.event {
+    border-style: ridge;
+    border-width: 10px;
+    border-color: turquoise;
+    background-color: peachpuff;
+}
+
+h1 {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: "Helvetica Neue Light";
+    font-size: 32px;
+    color: black;
+}
+
+p {
+    padding-left: 25px;
+    padding-right: 25px;
+    color: black;
+    font-family: Calibri;
+    font-size: 24px;
+}
+
+img {
+    padding-left: 25px;
+    padding-right: 25px;
+}
