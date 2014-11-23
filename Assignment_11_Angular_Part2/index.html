@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="movies">
+<head>
+    <title>Rotten Tomatoes API</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<a href="https://github.com/albertwkchin/ITP404/tree/master/Assignment_11_Angular_Part2">VIEW CODE ON GITHUB!</a>
+
+<div ng-controller="MoviesController">
+    <form role="form" ng-submit="searchMovie()">
+        <div class="form-group">
+            <input ng-model="search_term" type="text" id="search-term" placeholder="movies [name/keywords]" class="form-control">
+            <input type="submit" value="Search">
+        </div>
+    </form>
+
+    <div ng-if="movieList.length > 0">
+        <div id="results" ng-repeat = "movie in movieList">
+                <h1>{{movie.title}}</h1>
+                <img src="{{movie.posters.original}}" alt=""/>
+                {{movie.synopsis}}
+                <p>The crowd thought: {{movie.ratings.audience_rating}} </p>
+                <p>Audience score: {{movie.ratings.audience_score}}</p>
+                <p>The critics thought: {{movie.ratings.critics_rating}}</p>
+                <p>Critics score: {{movie.ratings.critics_score}}</p>
+        </div>
+    </div>
+</div>
+
+<script src="js/angular.min.js"></script>
+<script src="js/angular.min.js.map"></script>
+<script src="js/lib/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
