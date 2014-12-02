@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Reverscipe</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="container">
+      <div id="banner"> <img src="img/banner.jpg" alt="banner" title="banner" /> </div>
+      <div id="bannerb">
+            <h5>Albert<span class="orange"> Chin</span></h5>
+        <div class="scroll">
+          <h2>Source Code On Github</h2>
+          <p><a href="https://github.com/albertwkchin/ITP404/tree/master/Reverscipe"><span class="news">---------------------------------------------------------------------------------------------------------------------------------------------------</span></a></p>
+          <h2>Unit Tests</h2>
+          <p><a href="http://www-scf.usc.edu/~chinaw/itp404/Reverscipe/SpecRunner.html"><span class="news">---------------------------------------------------------------------------------------------------------------------------------------------------</span></a></p>
+        </div>
+      </div>
+      <div class="topnav">
+        <div id="navcontainer">
+          <ul id="navlist">
+              <li><p4>Recipe Search Engine</p4></li>
+          </ul>
+        </div>
+        <div class="clear">&nbsp; </div>
+      </div>
+
+
+      <div id="sidebar">
+        <h1>Search</h1>
+          <form action="" id="keyword-form">
+              <input type="text" id="keyword-term" placeholder="Keyword">
+              <input type="submit" value="Add Keyword" class="buttons">
+          </form>
+
+        <div id="menu">
+          <h1>Keywords:</h1>
+          <ul id="keyword-list">
+          </ul>
+        </div>
+          <form action="" id="search-form">
+            <input type="submit" value="Search" id="search-button" class="buttons">
+          </form>
+          <form action="" id="clear-form">
+              <input type="submit" value="Clear" id="clear-button" class="buttons">
+          </form>
+          <p5>Remove keywords by clicking on them.</p5>
+      </div>
+
+
+      <div id="sidebar-b">
+        <h1><span class="orange">API</span> Attribution</h1>
+        <p> Recipe search powered by Yummly </p>
+        <p> <a href='http://www.yummly.com/recipes'><img alt='Yummly' src='http://static.yummly.com/api-logo.png'/></a> </p>
+        <p> Nutrition information provided by Nutrionix </p>
+        <p> <a href="http://www.nutritionix.com/api"><img src="https://d3jpl91pxevbkh.cloudfront.net/nutritionix/image/upload/v1363458498/attribution_jqfdgy.png" border="0"></a> </p>
+      </div>
+
+
+      <div id="results"></div>
+          <script type="text/handlebars" id="recipe-template">
+            <div class="recipe">
+                <h3>{{recipeName}}</h3>
+                {{#each imageUrlsBySize}}
+                    <p><img src="{{this}}" alt=""/></p>
+                {{/each}}
+                <p>Serves {{servingNumber}}.</p>
+                <p>Estimated Cooktime: {{totalTime}}</p>
+                <p2>Calories: {{avg_calories}}</p2>
+                <p2>Sodium: {{avg_sodium}}</p2>
+                <p>Rating (out of 5): {{rating}}</p>
+                <p3><a href = "{{sourceLink}}"><span class="black">Full Recipe</span></a></p3>
+                <h4>Ingredients:</h4>
+                <ul>
+                {{#each ingredients}}
+                   <p><li>{{this}}</li></p>
+                {{/each}}
+                </ul>
+           </div>
+        </script>
+
+
+      <div id="footer"> Original Template by <a href="http://www.mitchinson.net"> www.mitchinson.net</a> <br/>
+        This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a> </div>
+    </div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="lib/handlebars-v2.0.0.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>

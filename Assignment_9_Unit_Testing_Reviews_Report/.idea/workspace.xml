@@ -32,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpecRunner.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SpecRunner.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpecRunner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="9" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.6633222" vertical-offset="0" max-vertical-offset="1122">
+            <state line="8" column="0" selection-start="264" selection-end="264" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1122">
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -46,7 +46,7 @@
       <file leaf-file-name="ReviewsReport.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ReviewsReport.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="42" selection-start="2003" selection-end="2003" vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="1700">
+            <state line="52" column="0" selection-start="1347" selection-end="1347" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1700">
               <folding />
             </state>
           </provider>
@@ -61,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classpage.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="classpage.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Default/classpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="7" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="442">
+            <state line="18" column="67" selection-start="1508" selection-end="1567" vertical-scroll-proportion="0.3411371" vertical-offset="0" max-vertical-offset="897">
               <folding />
             </state>
           </provider>
@@ -82,14 +82,14 @@
       <list>
         <option value="$PROJECT_DIR$/spec/ReviewsReport.spec.js" />
         <option value="$PROJECT_DIR$/src/ReviewsReport.js" />
-        <option value="$PROJECT_DIR$/../Default/classpage.html" />
         <option value="$PROJECT_DIR$/SpecRunner.html" />
+        <option value="$PROJECT_DIR$/../Default/classpage.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -120,7 +120,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -139,54 +138,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assignment_9_Unit_Testing_Reviews_Report" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assignment_9_Unit_Testing_Reviews_Report" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assignment_9_Unit_Testing_Reviews_Report" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assignment_9_Unit_Testing_Reviews_Report" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assignment_9_Unit_Testing_Reviews_Report" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assignment_9_Unit_Testing_Reviews_Report" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jasmine-1.2.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,7 +149,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../backbone1-2014-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Default/classpage.html" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -229,7 +183,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -245,11 +199,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -269,6 +223,80 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/framework/jasmine-1.2.0/jasmine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="31" selection-start="2135" selection-end="2144" vertical-scroll-proportion="0.0" vertical-offset="1066" max-vertical-offset="43095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpecRunner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="9" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1122">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReviewsReport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="42" selection-start="2003" selection-end="2003" vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/ReviewsReport.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="25" selection-start="2349" selection-end="2349" vertical-scroll-proportion="0.0" vertical-offset="1538" max-vertical-offset="3434">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Default/classpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="7" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/jasmine-1.2.0/jasmine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="31" selection-start="2135" selection-end="2144" vertical-scroll-proportion="0.0" vertical-offset="1066" max-vertical-offset="43095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpecRunner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="9" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1122">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReviewsReport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="42" selection-start="2003" selection-end="2003" vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/ReviewsReport.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="25" selection-start="2349" selection-end="2349" vertical-scroll-proportion="0.0" vertical-offset="1538" max-vertical-offset="3434">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Default/classpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="7" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/framework/jasmine-1.2.0/jasmine.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="31" selection-start="2135" selection-end="2144" vertical-scroll-proportion="0.0" vertical-offset="1066" max-vertical-offset="43095">
@@ -320,23 +348,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/jasmine-1.2.0/jasmine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="31" selection-start="2135" selection-end="2144" vertical-scroll-proportion="0.0" vertical-offset="1066" max-vertical-offset="43095">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Assignment_8_AJAX_with_PHP_and_JSON/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="7" selection-start="78" selection-end="78" vertical-scroll-proportion="0.07580825" vertical-offset="0" max-vertical-offset="897" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Default/classpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="442">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/ReviewsReport.spec.js">
@@ -346,19 +360,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/framework/jasmine-1.2.0/jasmine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="31" selection-start="2135" selection-end="2144" vertical-scroll-proportion="0.0" vertical-offset="1066" max-vertical-offset="43095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ReviewsReport.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="42" selection-start="2003" selection-end="2003" vertical-scroll-proportion="0.0" vertical-offset="369" max-vertical-offset="1700">
+        <state line="52" column="0" selection-start="1347" selection-end="1347" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1700">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpecRunner.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="9" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.6633222" vertical-offset="0" max-vertical-offset="1122">
+        <state line="8" column="0" selection-start="264" selection-end="264" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1122">
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Default/classpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="67" selection-start="1508" selection-end="1567" vertical-scroll-proportion="0.3411371" vertical-offset="0" max-vertical-offset="897">
+          <folding />
         </state>
       </provider>
     </entry>
