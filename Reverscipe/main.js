@@ -190,11 +190,19 @@ $('#keyword-form').on('submit', function(e) {
 $('#search-form').on('submit', function(e) {
     e.preventDefault();
 
-    $('#results').html('');
+    $('#results').html('Searching...');
 
     var promise = data.yummlyPageQuery();
 
     promise.done(function(response) {
+        $('#results').html('');
+
+        if (response == null) {
+            $('#results').html('No results found. Please try fixing your keyterms.');
+        }
+        if (response.matches.length == 0) {
+            $('#results').html('No results found. Please try fixing your keyterms.');
+        }
         data.saveResults(response);
         data.nutrionixPageQuery(display, response);
     });
